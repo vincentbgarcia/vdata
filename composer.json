@@ -1,0 +1,24 @@
+{
+    "name": "vinyoda197/vdata",
+    "description": "Base class for handling arrays into object",
+    "keywords": ["array", "object", "json"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent B. Garcia",
+            "email": "vincentbgarcia@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "vinyoda197\\Vdata\\": "src/"
+        }
+    }
+}
