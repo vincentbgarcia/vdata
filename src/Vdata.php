@@ -74,7 +74,7 @@ class Vdata extends \ArrayIterator
     public function __toString()
     {
         return is_array($this->_data)
-                ? json_encode($this->dataArray())
+                ? json_encode($this->dataArray(), JSON_HEX_APOS)
                 : $this->_data;
     }
 
